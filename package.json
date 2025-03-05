@@ -2,7 +2,6 @@
   "name": "sweet-jets",
   "version": "0.0.1",
   "scripts": {
-    "init": "lerna init",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "start": "yarn build && lerna run start",
