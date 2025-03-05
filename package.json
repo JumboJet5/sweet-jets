@@ -22,5 +22,9 @@
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1"
-  }
+  },
+  "description": "none",
+  "main": ".eslintrc.js",
+  "author": "jumbojet",
+  "license": "MIT"
 }
