@@ -28,5 +28,6 @@
   },
   "description": "core utils",
   "author": "JumboJet",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "86d4a7394037fa4be1d99fc4b2869e0b90b84918"
 }
