@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/ethereum-checksum-address": "0.0.0"
   },
-  "description": "core utils",
+  "description": "core web3 utils",
   "author": "JumboJet",
   "license": "MIT",
   "gitHead": "86d4a7394037fa4be1d99fc4b2869e0b90b84918"
