@@ -4,8 +4,14 @@
     "sweet-jets",
     "web3"
   ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/JumboJet5/sweet-jets.git",
+    "directory": "packages/core"
+  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "version": "0.0.7",
   "files": [
@@ -30,5 +36,5 @@
   "description": "core web3 utils",
   "author": "JumboJet",
   "license": "MIT",
-  "gitHead": "798df5ea27937a218a46c503928f7e6543946198"
+  "gitHead": "50264a0f6ce38f72d0fa13297ce529fbd6843b8f"
 }
