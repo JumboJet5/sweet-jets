@@ -1,0 +1,9 @@
+{
+  "version": "independent",
+  "packages": [
+    "packages/*",
+    "playgrounds/*"
+  ],
+  "npmClient": "yarn",
+  "ignoreChanges": ["**/*.md", "**/*.spec.ts"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SweetJets",
+  "version": "0.0.1",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "start": "yarn build && lerna run start",
+    "versions": "lerna version",
+    "publish": "yarn build --no-private && lerna run test --no-private && lerna publish --no-private",
+    "test": "lerna run test",
+    "lint": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lerna": "^6.1.0",
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
