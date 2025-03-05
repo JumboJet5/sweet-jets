@@ -1,7 +1,8 @@
 {
   "name": "@sweet-jets/core",
   "keywords": [
-    "sweet-jets"
+    "sweet-jets",
+    "web3"
   ],
   "publishConfig": {
     "access": "public"
