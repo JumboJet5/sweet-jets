@@ -1,0 +1,32 @@
+{
+  "name": "@sweet-jets/core",
+  "keywords": [
+    "sweet-jets"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch",
+    "test": "tsc"
+  },
+  "dependencies": {
+    "ethereum-checksum-address": "^0.0.8"
+  },
+  "devDependencies": {
+    "@types/ethereum-checksum-address": "0.0.0"
+  },
+  "description": "core utils",
+  "author": "JumboJet",
+  "license": "MIT"
+}
