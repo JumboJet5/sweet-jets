@@ -66,7 +66,7 @@ export abstract class EthereumConnector<T extends EthereumProvider = EthereumPro
       const _chainId = await chainIdRequest
 
       this._state$.next({
-        ...this._state$.value,
+        provider: this._provider,
         accounts: _accounts,
         account: _accounts[0],
         chainId: +_chainId,
