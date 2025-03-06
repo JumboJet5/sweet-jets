@@ -23,8 +23,8 @@
   "exports": "./dist/index.js",
   "dependencies": {
     "@metamask/detect-provider": "^2.0.0",
-    "rxjs": "^7.8.2",
-    "@sweet-jets/core": "*"
+    "@sweet-jets/core": "^0.0.1",
+    "rxjs": "^7.8.2"
   },
   "description": "web3 connectors",
   "author": "JumboJet",
