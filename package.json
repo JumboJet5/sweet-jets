@@ -1,13 +1,15 @@
 {
   "name": "sweet-jets",
   "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "start": "yarn build && lerna run start",
     "versions": "lerna version",
     "publish": "yarn build --no-private && lerna run test --no-private && lerna publish --no-private",
-    "publish2": "yarn build --no-private && lerna publish --no-private",
     "test": "lerna run test",
     "lint": "eslint ./ --fix"
   },

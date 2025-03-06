@@ -1,0 +1,36 @@
+{
+  "name": "@sweet-jets/web3-connectors",
+  "keywords": [
+    "sweet-jets",
+    "web3"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch",
+    "test": "tsc"
+  },
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "rxjs": "^7.8.2",
+    "@sweet-jets/core": "*"
+  },
+  "description": "web3 connectors",
+  "author": "JumboJet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumboJet5/sweet-jets/issues"
+  },
+  "homepage": "https://github.com/JumboJet5/sweet-jets#readme"
+}
